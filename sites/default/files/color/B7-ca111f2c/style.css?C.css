@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  padding: 10px 30px 10px;
+  background: #430295;
+  color: #000000;
+  font-size: 0.87em;
+  font-family: verdana, arial, sans-serif;
+}
+#all {
+  background: #ffffff;
+  color: #000000;
+  padding: 15px 15px 8px;
+}
+#search-wrap {
+  float: right;
+  margin: 20px 10px 0px;
+}
+a {
+  text-decoration: none;
+  color: #30322b;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.4em;
+}
+h3 {
+  font-size: 1.3em;
+}
+h4,h5,h6 {
+  font-size: 1.2em;
+}
+#header img {
+  float: left;
+  padding: 10px;
+}
+#header.center_logo img {
+  float: none;
+  display: inline;
+}
+#header.center_logo {
+  text-align: center;
+}
+#site-name {
+  margin: 0;
+  padding: 14px 0 5px;
+  height: 1%;
+}
+#site-name a {
+  text-decoration: none;
+}
+#site-slogan {
+  display: block;
+  padding: 4px 0;
+  margin: 0;
+  height: 1%;
+}
+#site-name a, #site-slogan a {
+  color: #687052;
+}
+#top-nav {
+  color: #ffffff;
+  padding: 3px 6px;
+  margin: 0px 0px 10px;
+  text-align: center;
+  border: 2px solid;
+  clear: both;
+  font-size: 0.91em;
+  border-color: #42216c;
+  background: #430295;
+}
+#top-nav a {
+  color: #ffffff;
+}
+#top-nav a:hover {
+  color: #cccccc;
+}
+#top-nav ul {
+  list-style: none;
+  margin: 0 8px;
+  padding: 0 8px;
+}
+#top-nav ul li {
+  display: inline;
+  padding: 0px 4px;
+}
+#primary, #secondary {
+  border: solid;
+  border-width: 0 1px;
+  display: inline;
+  margin: 0;
+  padding: 3px 0;
+  border-color: #42216c;
+}
+#primary {
+  font-size: 1.2em;
+}
+#secondary {
+  font-size: 1.0em
+}
+#content {
+  margin: 5px 0;
+  width: 100%;
+}
+#content tr td {
+  vertical-align: top;
+}
+.content-title {
+  color: #30322b;
+}
+.sidebar {
+  width: 168px;
+  font-size: 0.87em;
+  padding: 0 15px;
+}
+.sidebar .block {
+  margin: 0 0 10px;
+  border: 1px solid #939393;
+  background: #ffffff;
+  padding: 0;
+}
+.sidebar .block h2 {
+  font-size: 1.1em;
+  text-align: center;
+  margin: 0;
+  padding: 3px;
+  border-bottom: 1px solid #939393;
+  padding: 2px 0;
+}
+.sidebar .block .content {
+  padding: 5px 6px;
+}
+.container-inline a {
+  color: #cccccc;
+}
+.main-content {
+  padding: 0 15px;
+}
+#footer {
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+}
+#footer a {
+  color: #ffffff;
+}
+.messages {
+  background-color: #e3e3e3;
+  border: 1px solid #adadad;
+  padding: 0.3em;
+  margin-bottom: 1em;
+}
+.error {
+  border-color: #fff555;
+}
+.container {
+  padding: 4px;
+}
+.forum {
+  padding: 4px;
+}
+.calendar {
+  font-size: 1.12em;
+}
+.calendar .header-week, .calendar .day-blank, .calendar .day-selected {
+  background: #c7c7c7;
+}
+.calendar .day-today, .calendar .day-today a {
+  background: #30322b;
+  color: #ffffff;
+}
+.poll .bar .foreground {
+  background: #42216c;
+}
+.node {
+  padding: 10px;
+  margin-bottom: 7px;
+}
+.node.sticky {
+  background: #adadad;
+}
+.node h2 {
+  padding-top: 0;
+  margin-top: 8px;
+}
+.node .info {
+  text-align: right;
+  font-size: .83em;
+  font-style: italic;
+}
+.node .links {
+  padding-left: 10px;
+}
+.comment {
+  border: 1px solid #8a7a9e;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+.comment .title {
+  margin-bottom: 2px;
+}
+.comment .title a {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.comment .new {
+  text-align: right;
+  font-weight: bold;
+  font-size: 0.8em;
+  float: right;
+  color: #ff0000;
+}
+.comment .picture {
+  border: 1px solid #8a7a9e;
+  float: right;
+  margin: 0.5em;
+}
+#mission {
+  padding: 1.5em 2em;
+  margin: 0;
+  color: #ffffff;
+  background-color: #392355;
+}
+#mission a {
+  color: #b1b1b1;
+}
+
+/*******************************************************************
+*                                        *
+*******************************************************************/
