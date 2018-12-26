@@ -86,25 +86,29 @@ EMAIL: <a href="contact.html">Contact form</a></p>
 <input type="hidden" name="form_id" id="edit-contact-mail-page" value="contact_mail_page"  />
 
 </div></form> -->  
-<form name="contact" method="POST" netlify>
-      <div>You can leave a message using the contact form below.
-     <div class="formrow form-item">
-     
- <label for="name">Your name: <span class="form-required" title="This field is required.">*</span></label>
-    <input type="text" name="name" size="60" class="form-text required">
+<form action="contact.html"  accept-charset="UTF-8" method="post" id="contact-mail-page" data-netlify="true">
+    <div class="form-item" id="edit-name-wrapper">
+     <label for="edit-name">Your name: <span class="form-required" title="This field is required.">*</span></label>
+     <input type="text" maxlength="255" name="name" id="edit-name" size="60" value="" class="form-text required" />
     </div>
-    <div class="formrow form-item">
-     <label for="_replyto">Your e-mail address: <span class="form-required" title="This field is required.">*</span></label>
-    <input type="email" name="_replyto" size="60" value="" class="form-text required">
+    <div class="form-item" id="edit-mail-wrapper">
+     <label for="edit-mail">Your e-mail address: <span class="form-required" title="This field is required.">*</span></label>
+     <input type="text" maxlength="255" name="mail" id="edit-mail" size="60" value="" class="form-text required" />
     </div>
-    <div class="formrow form-item">
-     <label for="message">Message: <span class="form-required" title="This field is required.">*</span></label>
-    <textarea  name="message" cols="60" rows="5" id="edit-message"  class="form-textarea resizable required"></textarea>
+    <div class="form-item" id="edit-subject-wrapper">
+     <label for="edit-subject">Subject: <span class="form-required" title="This field is required.">*</span></label>
+     <input type="text" maxlength="255" name="subject" id="edit-subject" size="60" value="" class="form-text required" />
     </div>
-    <div class="formrow">
-    <input type="submit" value="Send">
+    <div class="form-item" id="edit-message-wrapper">
+     <label for="edit-message">Message: <span class="form-required" title="This field is required.">*</span></label>
+     <textarea cols="60" rows="5" name="message" id="edit-message"  class="form-textarea resizable required"></textarea>
     </div>
-</form>
+    <div data-netlify-recaptcha="true"></div>
+    <input type="submit" name="op" id="edit-submit" value="Send e-mail"  class="form-submit" />
+    <input type="hidden" name="form_build_id" id="form-XzR2pnasFdm5J8flQKXzDgjlQ_XGO8FkOxQ23fa1ACo" value="form-XzR2pnasFdm5J8flQKXzDgjlQ_XGO8FkOxQ23fa1ACo"  />
+    <input type="hidden" name="form_id" id="edit-contact-mail-page" value="contact_mail_page"  />
+    
+    </form>
         <!-- end main content -->
         </td><!-- mainContent -->
          <td class="sidebar" id="right">
